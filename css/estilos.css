@@ -49,4 +49,16 @@ body
 {
     background: white;
     padding: 1em;
+    display: block;
+   
+}
+#post p{
+    display: flex; /* Utiliza flexbox para el contenido del párrafo */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center;
+}
+#post p.mi-imagen
+{
+    display: block;
+    margin: 0 ;
 }
